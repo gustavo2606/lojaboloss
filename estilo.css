@@ -252,7 +252,34 @@ body {
 	letter-spacing: 0%;
 	color: #6B705C;
 	margin-left: 68px;
-
 }
 
+.selecao2{
+	margin-top: 50px;
+    background-color: #6B705C;
+    padding-top: 40px;
+    color: #fff;
+    padding-bottom: 40px;
+}
 
+.tituloft {
+	width: 70;
+	height: 34;
+	top: 1241px;
+	left: 685px;
+	font-family: Cookie;
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 75%;
+	letter-spacing: 0%;
+	text-align: center;
+    color: #FFE8D6;
+	
+}
+
+.fotobolos{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
