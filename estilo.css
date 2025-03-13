@@ -205,6 +205,14 @@ body {
 
 }
 
+.cardapio {
+	width: 1304;
+	height: 270;
+	top: 867px;
+	left: 68px;
+
+}
+
 .textcardapio {
 	width: 123;
 	height: 34;
@@ -216,7 +224,35 @@ body {
 	line-height: 75%;
 	letter-spacing: 0%;
 	text-align: center;
-    color: #CB997E;
-	margin-bottom: 20px;
+	color: #CB997E;
+	margin-bottom: 52px;
+	margin-bottom: 52px;
+}
+
+.coluna {
+	column-count: 4;
+	/* Número de colunas */
+	column-gap: 20px;
+	/* Espaçamento entre colunas */
+
 
 }
+
+
+
+.textcarda {
+	width: 123;
+	height: 34;
+	top: 867px;
+	left: 658px;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 130%;
+	letter-spacing: 0%;
+	color: #6B705C;
+	margin-left: 68px;
+
+}
+
+
