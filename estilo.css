@@ -305,5 +305,36 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-top: 52px;
+	margin-bottom: 52px;
+    
 }
 
+.mapa-borda{
+   margin-top: 1px;
+   margin-bottom: 1px;
+   background-color: #6b705b;
+	
+}
+
+.bolos_guto2 {
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 75%;
+	color: #6b705b;
+	text-align: center;
+	font-family: cookie;
+}
+
+.guto2 {
+	font-weight: 400;
+	font-size: 60px;
+	text-align: center;
+	font-family: cookie;
+	color: #6b705b;
+}
+
+.icones {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
