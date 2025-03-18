@@ -183,6 +183,7 @@ body {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
+	text-decoration: none;
 }
 
 .opcoes {
@@ -195,6 +196,10 @@ body {
 	text-decoration: none;
 	color: #FFE8D6;
 }
+.opcoes a{
+	color: #FFE8D6;
+}
+
 
 .imagembl {
 	width: 1440px;
@@ -277,7 +282,7 @@ body {
 
 .foto-bolos {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
 	margin-top: 52px;
 	margin-bottom: 52px;
@@ -297,6 +302,7 @@ body {
 	letter-spacing: 0%;
 	text-align: center;
 	color: #CB997E;
+	margin-bottom: 52px;
 }
 
 .mapa {
@@ -310,9 +316,8 @@ body {
 }
 
 .mapa-borda{
-   margin-top: 1px;
-   margin-bottom: 1px;
-   background-color: #6b705b;
+   border-bottom: 5px solid #6B705C;
+	margin-bottom: 23px;
 	
 }
 
@@ -337,4 +342,5 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 13px;
 }
