@@ -299,14 +299,11 @@ body {
 	color: #CB997E;
 }
 
-.imagem-mapa{
-	width: 500;
-	height: 300;
-	top: 1717px;
-	left: 470px;
+.mapa {
 	border-width: 5px;
 	display: flex;
-    justify-content: center;
-    align-items: center;
-
+	justify-content: center;
+	align-items: center;
+	margin-top: 52px;
 }
+
