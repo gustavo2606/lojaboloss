@@ -192,7 +192,7 @@ body {
 	font-size: 18px;
 	line-height: 75.4%;
 	text-align: center;
-	text-decoration-line: underline;
+	text-decoration: none;
 	color: #FFE8D6;
 }
 
@@ -205,13 +205,11 @@ body {
 
 }
 
-.cardapio {
-	width: 1304;
-	height: 270;
-	top: 867px;
-	left: 68px;
 
+.cardapio {
+	padding-top: 52px;
 }
+
 
 .textcardapio {
 	width: 123;
@@ -226,7 +224,7 @@ body {
 	text-align: center;
 	color: #CB997E;
 	margin-bottom: 52px;
-	margin-bottom: 52px;
+
 }
 
 .coluna {
@@ -237,8 +235,6 @@ body {
 
 
 }
-
-
 
 .textcarda {
 	width: 123;
@@ -251,18 +247,21 @@ body {
 	line-height: 130%;
 	letter-spacing: 0%;
 	color: #6B705C;
-	margin-left: 68px;
+	margin-left: 52px;
+
 }
 
-.selecao2{
-	margin-top: 50px;
-    background-color: #6B705C;
-    padding-top: 40px;
-    color: #fff;
-    padding-bottom: 40px;
+.facilidades {
+	width: 1440;
+	height: 390;
+	top: 1189px;
+	left: -1px;
+	background-color: #6B705C;
+	margin-bottom: 52px;
+	margin-top: 52px;
 }
 
-.tituloft {
+.titulo-facilidades {
 	width: 70;
 	height: 34;
 	top: 1241px;
@@ -271,15 +270,43 @@ body {
 	font-weight: 400;
 	font-size: 45px;
 	line-height: 75%;
-	letter-spacing: 0%;
 	text-align: center;
-    color: #FFE8D6;
-	
+	color: #FFE8D6;
+	padding-top: 52px;
 }
 
-.fotobolos{
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    flex-wrap: wrap;
+.foto-bolos {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 52px;
+	margin-bottom: 52px;
+	margin-left: 104px;
+	margin-right: 104px;
+}
+
+.titulo-mapa {
+	width: 104;
+	height: 34;
+	top: 1631px;
+	left: 667px;
+	font-family: Cookie;
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 75%;
+	letter-spacing: 0%;
+	text-align: center;
+	color: #CB997E;
+}
+
+.imagem-mapa{
+	width: 500;
+	height: 300;
+	top: 1717px;
+	left: 470px;
+	border-width: 5px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
