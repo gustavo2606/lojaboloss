@@ -153,9 +153,7 @@ body {
 }
 
 .titulo {
-	width: 89px;
 	height: 71px;
-	margin-left: 750px;
 	margin-top: 17px;
 }
 
@@ -184,6 +182,7 @@ body {
 	padding-bottom: 20px;
 	text-align: center;
 	text-decoration: none;
+	
 }
 
 .opcoes {
